@@ -100,8 +100,8 @@ ssh-agent bash
 EOF
 
 #FIXME env vars
-git config --global user.email "g.demeure@monaco-telecom.mc"
-git config --global user.name "DEMEURE Guillaume"
+git config --global user.email "me@example.com"
+git config --global user.name "ME me"
 git config --global core.editor vim
 
 apt autoremove --purge -qy openjdk-17-jre-headless
